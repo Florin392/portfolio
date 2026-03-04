@@ -2,7 +2,7 @@
 
 Personal portfolio built with React and TypeScript. Single-page application with section-based navigation, animated star background, and full test coverage.
 
-**Live:** https://portfolio-florin-iordache.vercel.app/ *
+**Live:** https://portfolio-florin-iordache.vercel.app/ 
 
 ---
 
