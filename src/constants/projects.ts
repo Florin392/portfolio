@@ -2,32 +2,22 @@ import { Project, ProjectCategory, ProjectStatus } from "@/types";
 
 export const PROJECTS: Project[] = [
   {
-    id: "todo-app",
-    title: "To-do app",
-    description: "A simple to-do application for every day use.",
-    technologies: ["React", "TailwindCSS"],
-    image: "/projects/to-do-app.png",
-    github: "https://github.com/Florin392/todoapp",
-    live: "https://florin392.github.io/todoapp/",
-  },
-  {
-    id: "password-generator",
-    title: "Password generator",
-    description: "A simple password generator built in two ways.",
-    technologies: ["React", "Redux", "Vite", "TailwindCSS"],
-    image: "/projects/password-generator.png",
-    github: "https://github.com/Florin392/password-generator",
-    live: "https://password-generator-dun-gamma.vercel.app/",
-  },
-  {
-    id: "online-store",
-    title: "Online store",
-    description:
-      "A platform for plant shopping, developed with a full-stack approach.",
-    technologies: ["React", "TypeScript", ".NET", "Docker", "TailwindCSS"],
-    image: "/projects/online-store.png",
-    github: "https://github.com/Florin392/onlineStore",
-    live: "https://online-shop.fly.dev/",
+    id: "travel-project",
+    title: "AI Travel admin dashboard",
+    description: "A full-stack admin dashboard for AI-powered travel planning.",
+    technologies: [
+      "React 19",
+      "React Router 7",
+      "TypeScript",
+      "Tailwind CSS",
+      "Appwrite",
+      "Google Gemini AI",
+      "Syncfusion",
+      "Sentry",
+    ],
+    image: "/projects/travel-project-admin-dashboard.png",
+    github: "https://github.com/Florin392/travel-project",
+    live: "https://travel-project-admin-dashboard.vercel.app/",
   },
   {
     id: "gemini-chatbot",
@@ -45,6 +35,34 @@ export const PROJECTS: Project[] = [
     image: "/projects/gemini-chatbot.png",
     github: "https://github.com/Florin392/gemini-chatbot",
     live: "https://gemini-chatbot-fawn.vercel.app/",
+  },
+  {
+    id: "online-store",
+    title: "Online store",
+    description:
+      "A platform for plant shopping, developed with a full-stack approach.",
+    technologies: ["React", "TypeScript", ".NET", "Docker", "TailwindCSS"],
+    image: "/projects/online-store.png",
+    github: "https://github.com/Florin392/onlineStore",
+    live: "https://online-shop.fly.dev/",
+  },
+  {
+    id: "password-generator",
+    title: "Password generator",
+    description: "A simple password generator built in two ways.",
+    technologies: ["React", "Redux", "Vite", "TailwindCSS"],
+    image: "/projects/password-generator.png",
+    github: "https://github.com/Florin392/password-generator",
+    live: "https://password-generator-dun-gamma.vercel.app/",
+  },
+  {
+    id: "todo-app",
+    title: "To-do app",
+    description: "A simple to-do application for every day use.",
+    technologies: ["React", "TailwindCSS"],
+    image: "/projects/to-do-app.png",
+    github: "https://github.com/Florin392/todoapp",
+    live: "https://florin392.github.io/todoapp/",
   },
 ];
 
